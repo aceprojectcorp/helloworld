@@ -6202,6 +6202,7 @@
 				PRODUCT_NAME = HelloWorld;
 				PROVISIONING_PROFILE_SPECIFIER = helloworld_development;
 				SECTORDER_FLAGS = "";
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SYMROOT = /Users/imac/work/HelloWorld;
 				SYSTEM_HEADER_SEARCH_PATHS = (
 					/Users/imac/work/HelloWorld/cocos2d/external/Box2D/include,
@@ -7290,6 +7291,7 @@
 				PRODUCT_NAME = HelloWorld;
 				PROVISIONING_PROFILE_SPECIFIER = helloworld_development;
 				SECTORDER_FLAGS = "";
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SYMROOT = /Users/imac/work/HelloWorld;
 				SYSTEM_HEADER_SEARCH_PATHS = (
 					/Users/imac/work/HelloWorld/cocos2d/external/Box2D/include,
@@ -7626,6 +7628,7 @@
 				PRODUCT_NAME = HelloWorld;
 				PROVISIONING_PROFILE_SPECIFIER = helloworld_development;
 				SECTORDER_FLAGS = "";
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SYMROOT = /Users/imac/work/HelloWorld;
 				SYSTEM_HEADER_SEARCH_PATHS = (
 					/Users/imac/work/HelloWorld/cocos2d/external/Box2D/include,
@@ -8559,6 +8562,7 @@
 				PRODUCT_NAME = HelloWorld;
 				PROVISIONING_PROFILE_SPECIFIER = helloworld_development;
 				SECTORDER_FLAGS = "";
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SYMROOT = /Users/imac/work/HelloWorld;
 				SYSTEM_HEADER_SEARCH_PATHS = (
 					/Users/imac/work/HelloWorld/cocos2d/external/Box2D/include,
