@@ -1,0 +1,36 @@
+# osx noise
+.DS_Store
+
+# xcode 세팅 파일 무시
+proj.ios_mac/KBOmanager.xcodeproj/project.xcworkspace/
+proj.ios_mac/KBOmanager.xcodeproj/xcuserdata/
+
+# 이크립스 세팅 파일과 빌드 파일 무시
+.metadata/
+proj.android/assets/
+proj.android/bin/
+proj.android/gen/
+proj.android/libs/armeabi/
+proj.android/obj/
+proj.android/.settings/
+proj.tstore/assets/
+proj.tstore/bin/
+proj.tstore/gen/
+proj.tstore/libs/armeabi/
+proj.tstore/obj/
+proj.tstore/.settings/
+
+#노창록 코코스 3.x 업데이트 후
+proj.android/app/obj
+proj.android/.idea
+proj.android/app/release
+proj.android/app/build
+
+proj.tstore/app/obj
+proj.tstore/.idea
+proj.tstore/app/release
+proj.tstore/app/build
+
+bin
+build
+engine/cocos/core/HelloWorld.build/
