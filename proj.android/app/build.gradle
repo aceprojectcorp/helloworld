@@ -41,13 +41,21 @@ android {
 
     signingConfigs {
 
-       release {
+        release {
             if (project.hasProperty("RELEASE_STORE_FILE")) {
                 storeFile file(RELEASE_STORE_FILE)
                 storePassword RELEASE_STORE_PASSWORD
                 keyAlias RELEASE_KEY_ALIAS
                 keyPassword RELEASE_KEY_PASSWORD
+                v1SigningEnabled true
+                v2SigningEnabled true                            
             }
+            keyAlias 'aceproject'
+            keyPassword 'vmfqhf456!'
+            storeFile file('../aceproject.keystore')
+            storePassword 'vmfqhf456!'
+            v1SigningEnabled true
+            v2SigningEnabled true            
         }
     }
 
@@ -68,6 +76,18 @@ android {
             debuggable true
             jniDebuggable true
             renderscriptDebuggable true
+        }
+    }
+    flavorDimensions "version"
+    productFlavors {
+        DEV {
+            dimension "version"
+            externalNativeBuild {
+                ndkBuild {
+                    String[] flags = ["-DC2S_USE_STAGING", "-DDEV_VER"]
+                    cppFlags.addAll(flags)
+                }
+            }
         }
     }
 }
