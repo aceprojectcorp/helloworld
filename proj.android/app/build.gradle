@@ -2,6 +2,20 @@ import org.gradle.internal.os.OperatingSystem
 
 apply plugin: 'com.android.application'
 
+// jenkins등 외부에서 버젼정보를 받음.
+def verCode = 1
+def verName = "1.0.0"
+task(setVersion){
+   if(project.hasProperty("versionCode")){
+       verCode = project['versionCode'].toInteger()
+   }
+
+   if(project.hasProperty("versionName")){
+       verName = project['versionName']
+   }   
+}
+
+
 android {
     compileSdkVersion PROP_COMPILE_SDK_VERSION.toInteger()
 
