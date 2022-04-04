@@ -13,10 +13,12 @@ android {
         versionName "1.0"
 
         externalNativeBuild {
-            cmake {
+            ndkBuild {
                 targets 'MyGame'
-                arguments "-DCMAKE_FIND_ROOT_PATH=", "-DANDROID_STL=c++_static", "-DANDROID_TOOLCHAIN=clang", "-DANDROID_ARM_NEON=TRUE"
-                cppFlags "-frtti -fexceptions -fsigned-char"
+                arguments 'NDK_TOOLCHAIN_VERSION=clang'
+                arguments '-j' + Runtime.runtime.availableProcessors()
+                cppFlags "-frtti", "-fexceptions", "-std=c++11", "-fsigned-char", "-Wno-extern-c-compat",
+                        "-w"
             }
         }
 
@@ -34,8 +36,8 @@ android {
     }
 
     externalNativeBuild {
-        cmake {
-            path "../../CMakeLists.txt"
+        ndkBuild {
+            path "jni/Android.mk"
         }
     }
 
