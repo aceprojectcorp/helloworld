@@ -34,9 +34,7 @@ FILE_LIST += $(wildcard $(LOCAL_PATH)/../../../Classes/**/**/**/**/**/**/**/**/*
 
 
 LOCAL_SRC_FILES := $(FILE_LIST:$(LOCAL_PATH)/%=%)
-LOCAL_SRC_FILES += hellocpp/main.cpp \
-                   mplayball/com_aceproject_android_C2sCocos2dxActivity.cpp \
-                   mplayball/com_aceproject_android_AceCocos2dxActivity.cpp
+LOCAL_SRC_FILES += hellocpp/main.cpp
 
 
 HEADER_LIST := $(wildcard $(LOCAL_PATH)/../../../Classes/*.h)
