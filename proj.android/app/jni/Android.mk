@@ -2,6 +2,12 @@ LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
 
+$(call import-add-path,$(LOCAL_PATH)/../../../../cocos2dx-3x/cocos2d)
+$(call import-add-path,$(LOCAL_PATH)/../../../../cocos2dx-3x/cocos2d/external)
+$(call import-add-path,$(LOCAL_PATH)/../../../../cocos2dx-3x/cocos2d/external/sqlite3/include)
+$(call import-add-path,$(LOCAL_PATH)/../../../../cocos2dx-3x/cocos2d/cocos)
+$(call import-add-path,$(LOCAL_PATH)/../../../../cocos2dx-3x/cocos2d/cocos/audio/include)
+
 LOCAL_MODULE := MyGame
 
 LOCAL_MODULE_FILENAME := libMyGame
