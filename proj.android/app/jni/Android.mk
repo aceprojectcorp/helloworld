@@ -6,9 +6,37 @@ LOCAL_MODULE := MyGame_shared
 
 LOCAL_MODULE_FILENAME := libMyGame
 
+FILE_LIST := $(wildcard $(LOCAL_PATH)/../../../Classes/*.cpp)
+FILE_LIST += $(wildcard $(LOCAL_PATH)/../../../Classes/**/*.cpp)
+FILE_LIST += $(wildcard $(LOCAL_PATH)/../../../Classes/**/**/*.cpp)
+FILE_LIST += $(wildcard $(LOCAL_PATH)/../../../Classes/**/**/**/*.cpp)
+FILE_LIST += $(wildcard $(LOCAL_PATH)/../../../Classes/**/**/**/**/*.cpp)
+FILE_LIST += $(wildcard $(LOCAL_PATH)/../../../Classes/**/**/**/**/**/*.cpp)
+FILE_LIST += $(wildcard $(LOCAL_PATH)/../../../Classes/**/**/**/**/**/**/*.cpp)
+FILE_LIST += $(wildcard $(LOCAL_PATH)/../../../Classes/**/**/**/**/**/**/**/*.cpp)
+FILE_LIST += $(wildcard $(LOCAL_PATH)/../../../Classes/**/**/**/**/**/**/**/**/*.cpp)
+FILE_LIST += $(wildcard $(LOCAL_PATH)/../../../Classes/**/**/**/**/**/**/**/**/**/*.cpp)
+FILE_LIST += $(wildcard $(LOCAL_PATH)/../../../Classes/**/**/**/**/**/**/**/**/**/**/*.cpp)
+FILE_LIST += $(wildcard $(LOCAL_PATH)/../../../Classes/**/**/**/**/**/**/**/**/**/**/**/*.cpp)
+
+
 LOCAL_SRC_FILES := $(LOCAL_PATH)/hellocpp/main.cpp \
                    $(LOCAL_PATH)/../../../Classes/AppDelegate.cpp \
                    $(LOCAL_PATH)/../../../Classes/HelloWorldScene.cpp
+
+HEADER_LIST := $(wildcard $(LOCAL_PATH)/../../../Classes/*.h)
+HEADER_LIST += $(wildcard $(LOCAL_PATH)/../../../Classes/**/*.h)
+HEADER_LIST += $(wildcard $(LOCAL_PATH)/../../../Classes/**/**/*.h)
+HEADER_LIST += $(wildcard $(LOCAL_PATH)/../../../Classes/**/**/**/*.h)
+HEADER_LIST += $(wildcard $(LOCAL_PATH)/../../../Classes/**/**/**/**/*.h)
+HEADER_LIST += $(wildcard $(LOCAL_PATH)/../../../Classes/**/**/**/**/**/*.h)
+HEADER_LIST += $(wildcard $(LOCAL_PATH)/../../../Classes/**/**/**/**/**/**/*.h)
+HEADER_LIST += $(wildcard $(LOCAL_PATH)/../../../Classes/**/**/**/**/**/**/**/*.h)
+HEADER_LIST += $(wildcard $(LOCAL_PATH)/../../../Classes/**/**/**/**/**/**/**/**/*.h)
+HEADER_LIST += $(wildcard $(LOCAL_PATH)/../../../Classes/**/**/**/**/**/**/**/**/**/*.h)
+HEADER_LIST += $(wildcard $(LOCAL_PATH)/../../../Classes/**/**/**/**/**/**/**/**/**/**/*.h)
+HEADER_LIST += $(wildcard $(LOCAL_PATH)/../../../Classes/**/**/**/**/**/**/**/**/**/**/**/*.h)
+
 
 LOCAL_C_INCLUDES := $(LOCAL_PATH)/../../../Classes
 
