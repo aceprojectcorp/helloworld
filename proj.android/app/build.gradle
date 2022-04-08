@@ -106,25 +106,6 @@ android {
     }
 }
 
-android.applicationVariants.all { variant ->
-    def project_root_folder = "${projectDir}/../.."
-    def dest_assets_folder = "${projectDir}/assets"
-
-    // delete previous files first
-    delete dest_assets_folder
-    def targetName = variant.name.capitalize()
-    def copyTaskName = "copy${targetName}ResourcesToAssets"
-    
-    tasks.register(copyTaskName) {
-        copy {
-            from "${buildDir}/../../../Resources"
-            into "${buildDir}/intermediates/assets/${variant.dirName}"
-            exclude "**/*.gz"
-        }
-    }
-    tasks.getByName("pre${targetName}Build").dependsOn copyTaskName
-}
-
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation project(':libcocos2dx')
