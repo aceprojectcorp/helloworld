@@ -72,13 +72,10 @@ void NaverGameLounge::stopSdk()
 
 void NaverGameLounge::onSdkStarted()
 {
-    CCLOG("NaverGameSDK onSdkStarted");
 }
 
 void NaverGameLounge::onSdkStopped()
 {
-    CCLOG("NaverGameSDK onSdkStopped");
-    
     if(nullptr != closeCallFunc)
     {
         closeCallFunc();
@@ -89,6 +86,5 @@ void NaverGameLounge::onSdkStopped()
 
 void NaverGameLounge::onSdkReceiveInGameMenuCode(const string& inGameMenuCode)
 {
-    CCLOG("NaverGameSDK onSdkReceiveInGameMenuCode: %s", inGameMenuCode.c_str());
 }
 
