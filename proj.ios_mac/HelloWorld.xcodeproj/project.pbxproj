@@ -826,7 +826,7 @@
 					"$(_COCOS_LIB_IOS_BEGIN)",
 					"$(_COCOS_LIB_IOS_END)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.aceproject.helloworld;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aceproject.helloworld.ios.dev;
 				PROVISIONING_PROFILE_SPECIFIER = helloworld_development;
 				SDKROOT = iphoneos;
 				STRIP_PNG_TEXT = NO;
