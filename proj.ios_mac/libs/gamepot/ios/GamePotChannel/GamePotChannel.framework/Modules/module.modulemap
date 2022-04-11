@@ -1,6 +1,0 @@
-framework module GamePotChannel {
-  umbrella header "GamePotChannel.h"
-
-  export *
-  module * { export * }
-}
