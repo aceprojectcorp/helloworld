@@ -108,6 +108,19 @@ android {
             }
         }
     }
+
+    flavorDimensions "version"
+    productFlavors {
+        DEV {
+            dimension "version"
+            externalNativeBuild {
+                ndkBuild {
+                    String[] flags = ["-DACE_TEST", "-DDEV_VER", "-DCOCOS2D_DEBUG=1"]
+                    cppFlags.addAll(flags)
+                }
+            }
+        }
+    }
 }
 
 android.applicationVariants.all { variant ->
