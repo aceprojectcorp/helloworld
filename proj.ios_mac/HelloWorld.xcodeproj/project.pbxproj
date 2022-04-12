@@ -44,9 +44,6 @@
 		8262943E1AAF051F00CB7CF7 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8262943D1AAF051F00CB7CF7 /* Security.framework */; };
 		8840F67B280403C2000B3616 /* HelloWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8840F671280403C2000B3616 /* HelloWorldScene.cpp */; };
 		8840F67C280403C2000B3616 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8840F672280403C2000B3616 /* AppDelegate.cpp */; };
-		8840F67D280403C2000B3616 /* NaverGameLounge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8840F677280403C2000B3616 /* NaverGameLounge.cpp */; };
-		8840F67E280403C2000B3616 /* NaverGameSDK_ios.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8840F679280403C2000B3616 /* NaverGameSDK_ios.mm */; };
-		8840F6812804062B000B3616 /* NNGSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8840F66A280403BA000B3616 /* NNGSDK.framework */; };
 		8840F68528040682000B3616 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8840F68428040682000B3616 /* WebKit.framework */; };
 		BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB012928DE900B8313A /* OpenGLES.framework */; };
 		BF1712471292920000B8313A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB412928DE900B8313A /* libz.dylib */; };
@@ -131,16 +128,10 @@
 		521A8EA819F11F5000D177D7 /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fonts; sourceTree = "<group>"; };
 		52B47A461A53D09B004E4C60 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		8262943D1AAF051F00CB7CF7 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
-		8840F66A280403BA000B3616 /* NNGSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NNGSDK.framework; sourceTree = "<group>"; };
-		8840F66B280403BA000B3616 /* NNGSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = NNGSDK.bundle; sourceTree = "<group>"; };
 		8840F66F280403C2000B3616 /* HelloWorldScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloWorldScene.h; sourceTree = "<group>"; };
 		8840F670280403C2000B3616 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8840F671280403C2000B3616 /* HelloWorldScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HelloWorldScene.cpp; sourceTree = "<group>"; };
 		8840F672280403C2000B3616 /* AppDelegate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AppDelegate.cpp; sourceTree = "<group>"; };
-		8840F676280403C2000B3616 /* NaverGameLounge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NaverGameLounge.h; sourceTree = "<group>"; };
-		8840F677280403C2000B3616 /* NaverGameLounge.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NaverGameLounge.cpp; sourceTree = "<group>"; };
-		8840F678280403C2000B3616 /* NaverGameSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NaverGameSDK.h; sourceTree = "<group>"; };
-		8840F679280403C2000B3616 /* NaverGameSDK_ios.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = NaverGameSDK_ios.mm; sourceTree = "<group>"; };
 		8840F68428040682000B3616 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.4.sdk/System/Library/Frameworks/WebKit.framework; sourceTree = DEVELOPER_DIR; };
 		BF170DB012928DE900B8313A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		BF170DB412928DE900B8313A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
@@ -165,7 +156,6 @@
 				1AC6FB30180E99EB004C840B /* libcocos2d iOS.a in Frameworks */,
 				D6B0611B1803AB670077942B /* CoreMotion.framework in Frameworks */,
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
-				8840F6812804062B000B3616 /* NNGSDK.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
 				BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */,
@@ -239,7 +229,6 @@
 			isa = PBXGroup;
 			children = (
 				8840F66E280403C2000B3616 /* Classes */,
-				8840F667280403BA000B3616 /* libs */,
 				46880B7519C43A67006E1F66 /* Resources */,
 				1AC6FAE5180E9839004C840B /* cocos2d_libs.xcodeproj */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
@@ -311,31 +300,6 @@
 			name = mac;
 			sourceTree = "<group>";
 		};
-		8840F667280403BA000B3616 /* libs */ = {
-			isa = PBXGroup;
-			children = (
-				8840F668280403BA000B3616 /* navergamesdk */,
-			);
-			path = libs;
-			sourceTree = "<group>";
-		};
-		8840F668280403BA000B3616 /* navergamesdk */ = {
-			isa = PBXGroup;
-			children = (
-				8840F669280403BA000B3616 /* ios */,
-			);
-			path = navergamesdk;
-			sourceTree = "<group>";
-		};
-		8840F669280403BA000B3616 /* ios */ = {
-			isa = PBXGroup;
-			children = (
-				8840F66A280403BA000B3616 /* NNGSDK.framework */,
-				8840F66B280403BA000B3616 /* NNGSDK.bundle */,
-			);
-			path = ios;
-			sourceTree = "<group>";
-		};
 		8840F66E280403C2000B3616 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
@@ -343,36 +307,8 @@
 				8840F670280403C2000B3616 /* AppDelegate.h */,
 				8840F671280403C2000B3616 /* HelloWorldScene.cpp */,
 				8840F672280403C2000B3616 /* AppDelegate.cpp */,
-				8840F673280403C2000B3616 /* M2 */,
 			);
 			path = Classes;
-			sourceTree = "<group>";
-		};
-		8840F673280403C2000B3616 /* M2 */ = {
-			isa = PBXGroup;
-			children = (
-				8840F674280403C2000B3616 /* Module */,
-			);
-			path = M2;
-			sourceTree = "<group>";
-		};
-		8840F674280403C2000B3616 /* Module */ = {
-			isa = PBXGroup;
-			children = (
-				8840F675280403C2000B3616 /* navergamesdk */,
-			);
-			path = Module;
-			sourceTree = "<group>";
-		};
-		8840F675280403C2000B3616 /* navergamesdk */ = {
-			isa = PBXGroup;
-			children = (
-				8840F676280403C2000B3616 /* NaverGameLounge.h */,
-				8840F677280403C2000B3616 /* NaverGameLounge.cpp */,
-				8840F678280403C2000B3616 /* NaverGameSDK.h */,
-				8840F679280403C2000B3616 /* NaverGameSDK_ios.mm */,
-			);
-			path = navergamesdk;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -516,8 +452,6 @@
 			files = (
 				1AF87B781F6F77F7007BE51C /* AppController.mm in Sources */,
 				1AF87B8B1F6F782A007BE51C /* RootViewController.mm in Sources */,
-				8840F67D280403C2000B3616 /* NaverGameLounge.cpp in Sources */,
-				8840F67E280403C2000B3616 /* NaverGameSDK_ios.mm in Sources */,
 				8840F67C280403C2000B3616 /* AppDelegate.cpp in Sources */,
 				8840F67B280403C2000B3616 /* HelloWorldScene.cpp in Sources */,
 				1AF87B8A1F6F7822007BE51C /* main.m in Sources */,
