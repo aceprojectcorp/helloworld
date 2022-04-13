@@ -2,7 +2,13 @@ LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
 
-LOCAL_MODULE := MyGame_shared
+$(call import-add-path,$(LOCAL_PATH)/../../../../cocos2dx-3x/cocos2d)
+$(call import-add-path,$(LOCAL_PATH)/../../../../cocos2dx-3x/cocos2d/external)
+$(call import-add-path,$(LOCAL_PATH)/../../../../cocos2dx-3x/cocos2d/external/sqlite3/include)
+$(call import-add-path,$(LOCAL_PATH)/../../../../cocos2dx-3x/cocos2d/cocos)
+$(call import-add-path,$(LOCAL_PATH)/../../../../cocos2dx-3x/cocos2d/cocos/audio/include)
+
+LOCAL_MODULE := MyGame
 
 LOCAL_MODULE_FILENAME := libMyGame
 
@@ -43,7 +49,7 @@ LOCAL_C_INCLUDES := $(dir $(HEADER_LIST))
 # _COCOS_HEADER_ANDROID_END
 
 
-LOCAL_STATIC_LIBRARIES := cc_static
+LOCAL_STATIC_LIBRARIES := cocos2dx_static
 
 # _COCOS_LIB_ANDROID_BEGIN
 # _COCOS_LIB_ANDROID_END
