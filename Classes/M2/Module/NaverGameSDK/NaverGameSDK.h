@@ -1,7 +1,7 @@
 #ifndef _JNI_NAVER_GAME_SDK_H_
 #define _JNI_NAVER_GAME_SDK_H_
 #include <string>
-
+#include <functional>
 namespace nng {
     class NaverGameSDKListener {
     public:
