@@ -42,6 +42,7 @@ HEADER_LIST += $(wildcard $(LOCAL_PATH)/../../../Classes/**/**/**/**/**/**/**/**
 HEADER_LIST += $(wildcard $(LOCAL_PATH)/../../../Classes/**/**/**/**/**/**/**/**/**/**/**/*.h)
 
 LOCAL_C_INCLUDES := $(dir $(HEADER_LIST))
+LOCAL_C_INCLUDES += $(LOCAL_PATH)/../../../libs/boost
 
 # _COCOS_HEADER_ANDROID_BEGIN
 # _COCOS_HEADER_ANDROID_END
