@@ -45,6 +45,8 @@
 		8840F67B280403C2000B3616 /* HelloWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8840F671280403C2000B3616 /* HelloWorldScene.cpp */; };
 		8840F67C280403C2000B3616 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8840F672280403C2000B3616 /* AppDelegate.cpp */; };
 		8840F68528040682000B3616 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8840F68428040682000B3616 /* WebKit.framework */; };
+		88DAA6822809619B00265F41 /* GameController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88DAA6812809619B00265F41 /* GameController.framework */; };
+		88DAA684280961A100265F41 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88DAA683280961A100265F41 /* MediaPlayer.framework */; };
 		BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB012928DE900B8313A /* OpenGLES.framework */; };
 		BF1712471292920000B8313A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB412928DE900B8313A /* libz.dylib */; };
 		BF1C47F01293687400B63C5D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1C47EA1293683800B63C5D /* QuartzCore.framework */; };
@@ -133,6 +135,8 @@
 		8840F671280403C2000B3616 /* HelloWorldScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HelloWorldScene.cpp; sourceTree = "<group>"; };
 		8840F672280403C2000B3616 /* AppDelegate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AppDelegate.cpp; sourceTree = "<group>"; };
 		8840F68428040682000B3616 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.4.sdk/System/Library/Frameworks/WebKit.framework; sourceTree = DEVELOPER_DIR; };
+		88DAA6812809619B00265F41 /* GameController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameController.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.4.sdk/System/Library/Frameworks/GameController.framework; sourceTree = DEVELOPER_DIR; };
+		88DAA683280961A100265F41 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.4.sdk/System/Library/Frameworks/MediaPlayer.framework; sourceTree = DEVELOPER_DIR; };
 		BF170DB012928DE900B8313A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		BF170DB412928DE900B8313A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		BF1C47EA1293683800B63C5D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -151,6 +155,8 @@
 			files = (
 				294D0D641D0D56D500F7F5D4 /* CoreText.framework in Frameworks */,
 				ED545A7C1B68A1F400C3958E /* libiconv.dylib in Frameworks */,
+				88DAA6822809619B00265F41 /* GameController.framework in Frameworks */,
+				88DAA684280961A100265F41 /* MediaPlayer.framework in Frameworks */,
 				8840F68528040682000B3616 /* WebKit.framework in Frameworks */,
 				52B47A471A53D09C004E4C60 /* Security.framework in Frameworks */,
 				1AC6FB30180E99EB004C840B /* libcocos2d iOS.a in Frameworks */,
@@ -242,6 +248,8 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				88DAA683280961A100265F41 /* MediaPlayer.framework */,
+				88DAA6812809619B00265F41 /* GameController.framework */,
 				8840F68428040682000B3616 /* WebKit.framework */,
 				294D0D631D0D56D500F7F5D4 /* CoreText.framework */,
 				ED545A7D1B68A1FA00C3958E /* libiconv.dylib */,
