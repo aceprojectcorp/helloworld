@@ -134,7 +134,7 @@ android.applicationVariants.all { variant ->
 
 repositories {
     flatDir {
-        dirs '../../libs'
+        dirs '../../libs/navergamesdk/android'
     }
     mavenCentral()
 }
