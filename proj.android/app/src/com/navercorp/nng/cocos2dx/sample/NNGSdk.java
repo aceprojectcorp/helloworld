@@ -33,13 +33,14 @@ public class NNGSdk {
             }
 
             @Override
-            public void onNaverLoggedIn(boolean success) { }
-
-            @Override
             public void onCallInGameMenuCode(String moveTo) {
                 onSdkReceiveInGameMenuCode(moveTo);
             }
         });
+    }
+
+    public static String getCountryCode() {
+        return NNGLink.getCountryCode(getActivity());
     }
 
     public static void startHomeBanner() {
@@ -54,8 +55,8 @@ public class NNGSdk {
         NNGLink.startBoard(getActivity(), boardId);
     }
 
-    public static void startFeed(int feedId) {
-        NNGLink.startFeed(getActivity(), feedId);
+    public static void startFeed(int feedId, boolean isTempFeedId) {
+        NNGLink.startFeed(getActivity(), feedId, isTempFeedId);
     }
 
     public static void stopSdk() {
