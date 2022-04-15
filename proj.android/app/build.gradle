@@ -132,6 +132,13 @@ android.applicationVariants.all { variant ->
     }
 }
 
+repositories {
+    flatDir {
+        dirs '../../libs'
+    }
+    mavenCentral()
+}
+
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation project(':libcocos2dx')
