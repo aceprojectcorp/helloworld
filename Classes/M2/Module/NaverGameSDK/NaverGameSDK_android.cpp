@@ -1,6 +1,3 @@
-
-
-
 #include "NaverGameSDK.h"
 #include "platform/android/jni/JniHelper.h"
 
@@ -34,6 +31,20 @@ namespace nng {
         }
     }
 
+    char* NaverGameSDK::getCountryCode() {
+        JniMethodInfo t;
+        jstring countryCodeJstr = nullptr;
+        if (getStaticMethod(t, "getCountryCode", "()Ljava/lang/String;")) {
+            countryCodeJstr = (jstring)t.env->CallStaticObjectMethod(t.classID, t.methodID);
+            t.env->DeleteLocalRef(t.classID);
+        }
+
+        auto countryCode = countryCodeJstr == nullptr? "" : JniHelper::jstring2string(countryCodeJstr);
+        CCLOG("countryCode = %s", (char*)countryCode.c_str());
+
+        return (char*)countryCode.c_str();
+    }
+
     void NaverGameSDK::startHomeBanner() {
         JniMethodInfo t;
         if (getStaticMethod(t, "startHomeBanner", "()V")) {
@@ -58,9 +69,9 @@ namespace nng {
         }
     }
 
-    void NaverGameSDK::startFeed(int feedId) {
+    void NaverGameSDK::startFeed(int feedId, bool isTempFeedId) {
         JniMethodInfo t;
-        if (getStaticMethod(t, "startFeed", "(I)V")) {
+        if (getStaticMethod(t, "startFeed", "(IZ)V")) {
             t.env->CallStaticVoidMethod(t.classID, t.methodID, feedId);
             t.env->DeleteLocalRef(t.classID);
         }
