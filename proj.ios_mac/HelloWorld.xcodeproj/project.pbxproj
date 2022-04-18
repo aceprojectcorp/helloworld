@@ -47,6 +47,37 @@
 		8840F68528040682000B3616 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8840F68428040682000B3616 /* WebKit.framework */; };
 		88DAA6822809619B00265F41 /* GameController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88DAA6812809619B00265F41 /* GameController.framework */; };
 		88DAA684280961A100265F41 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88DAA683280961A100265F41 /* MediaPlayer.framework */; };
+		88DAA6A0280D53D400265F41 /* NaverGameLounge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88DAA68B280D53D400265F41 /* NaverGameLounge.cpp */; };
+		88DAA6A2280D53D400265F41 /* GamePotPurchase_ios.mm in Sources */ = {isa = PBXBuildFile; fileRef = 88DAA690280D53D400265F41 /* GamePotPurchase_ios.mm */; };
+		88DAA6A5280D53D400265F41 /* GamePotPush_ios.mm in Sources */ = {isa = PBXBuildFile; fileRef = 88DAA696280D53D400265F41 /* GamePotPush_ios.mm */; };
+		88DAA6A6280D53D400265F41 /* GamePotServiceAgreement_ios.mm in Sources */ = {isa = PBXBuildFile; fileRef = 88DAA698280D53D400265F41 /* GamePotServiceAgreement_ios.mm */; };
+		88DAA6A9280D53D400265F41 /* GamePotLogin_ios.mm in Sources */ = {isa = PBXBuildFile; fileRef = 88DAA69E280D53D400265F41 /* GamePotLogin_ios.mm */; };
+		88DAA71B280D55A700265F41 /* NaverThirdPartyLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88DAA719280D55A700265F41 /* NaverThirdPartyLogin.framework */; };
+		88DAA71C280D55A700265F41 /* GamePotNaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88DAA71A280D55A700265F41 /* GamePotNaver.framework */; };
+		88DAA721280D55B900265F41 /* Nelo2SDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88DAA71E280D55B900265F41 /* Nelo2SDK.framework */; };
+		88DAA722280D55B900265F41 /* CrashReporter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88DAA71F280D55B900265F41 /* CrashReporter.framework */; };
+		88DAA723280D55B900265F41 /* GamePotLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88DAA720280D55B900265F41 /* GamePotLogger.framework */; };
+		88DAA72A280D55CA00265F41 /* GamePotGoogleSignIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88DAA725280D55CA00265F41 /* GamePotGoogleSignIn.framework */; };
+		88DAA72B280D55CA00265F41 /* GoogleSignIn.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 88DAA727280D55CA00265F41 /* GoogleSignIn.bundle */; };
+		88DAA72C280D55CA00265F41 /* GoogleSignInDependencies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88DAA728280D55CA00265F41 /* GoogleSignInDependencies.framework */; };
+		88DAA72D280D55CA00265F41 /* GoogleSignIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88DAA729280D55CA00265F41 /* GoogleSignIn.framework */; };
+		88DAA732280D55E000265F41 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88DAA72F280D55E000265F41 /* FBSDKLoginKit.framework */; };
+		88DAA733280D55E000265F41 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88DAA730280D55E000265F41 /* FBSDKCoreKit.framework */; };
+		88DAA734280D55E000265F41 /* GamePotFacebook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88DAA731280D55E000265F41 /* GamePotFacebook.framework */; };
+		88DAA737280D55F000265F41 /* GamePotChannel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88DAA736280D55F000265F41 /* GamePotChannel.framework */; };
+		88DAA73A280D55FC00265F41 /* GamePotApple.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88DAA739280D55FC00265F41 /* GamePotApple.framework */; };
+		88DAA749280D560900265F41 /* Protobuf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88DAA73C280D560900265F41 /* Protobuf.framework */; };
+		88DAA74A280D560900265F41 /* FirebaseCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88DAA73D280D560900265F41 /* FirebaseCore.framework */; };
+		88DAA74B280D560900265F41 /* FirebaseAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88DAA73E280D560900265F41 /* FirebaseAnalytics.framework */; };
+		88DAA74C280D560900265F41 /* GamePot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88DAA73F280D560900265F41 /* GamePot.framework */; };
+		88DAA74D280D560900265F41 /* FirebaseMessaging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88DAA740280D560900265F41 /* FirebaseMessaging.framework */; };
+		88DAA74E280D560900265F41 /* GamePot.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 88DAA742280D560900265F41 /* GamePot.bundle */; };
+		88DAA74F280D560900265F41 /* GoogleToolboxForMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88DAA743280D560900265F41 /* GoogleToolboxForMac.framework */; };
+		88DAA750280D560900265F41 /* nanopb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88DAA744280D560900265F41 /* nanopb.framework */; };
+		88DAA751280D560900265F41 /* FirebaseNanoPB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88DAA745280D560900265F41 /* FirebaseNanoPB.framework */; };
+		88DAA752280D560900265F41 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88DAA746280D560900265F41 /* AFNetworking.framework */; };
+		88DAA753280D560900265F41 /* FirebaseInstanceID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88DAA747280D560900265F41 /* FirebaseInstanceID.framework */; };
+		88DAA754280D560900265F41 /* FirebaseCoreDiagnostics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88DAA748280D560900265F41 /* FirebaseCoreDiagnostics.framework */; };
 		BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB012928DE900B8313A /* OpenGLES.framework */; };
 		BF1712471292920000B8313A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB412928DE900B8313A /* libz.dylib */; };
 		BF1C47F01293687400B63C5D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1C47EA1293683800B63C5D /* QuartzCore.framework */; };
@@ -137,6 +168,43 @@
 		8840F68428040682000B3616 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.4.sdk/System/Library/Frameworks/WebKit.framework; sourceTree = DEVELOPER_DIR; };
 		88DAA6812809619B00265F41 /* GameController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameController.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.4.sdk/System/Library/Frameworks/GameController.framework; sourceTree = DEVELOPER_DIR; };
 		88DAA683280961A100265F41 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.4.sdk/System/Library/Frameworks/MediaPlayer.framework; sourceTree = DEVELOPER_DIR; };
+		88DAA68A280D53D400265F41 /* NaverGameLounge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NaverGameLounge.h; sourceTree = "<group>"; };
+		88DAA68B280D53D400265F41 /* NaverGameLounge.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NaverGameLounge.cpp; sourceTree = "<group>"; };
+		88DAA68C280D53D400265F41 /* NaverGameSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NaverGameSDK.h; sourceTree = "<group>"; };
+		88DAA690280D53D400265F41 /* GamePotPurchase_ios.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GamePotPurchase_ios.mm; sourceTree = "<group>"; };
+		88DAA691280D53D400265F41 /* GamePotPurchase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GamePotPurchase.h; sourceTree = "<group>"; };
+		88DAA695280D53D400265F41 /* GamePotPush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GamePotPush.h; sourceTree = "<group>"; };
+		88DAA696280D53D400265F41 /* GamePotPush_ios.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GamePotPush_ios.mm; sourceTree = "<group>"; };
+		88DAA698280D53D400265F41 /* GamePotServiceAgreement_ios.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GamePotServiceAgreement_ios.mm; sourceTree = "<group>"; };
+		88DAA69A280D53D400265F41 /* GamePotServiceAgreement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GamePotServiceAgreement.h; sourceTree = "<group>"; };
+		88DAA69D280D53D400265F41 /* GamePotLogin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GamePotLogin.h; sourceTree = "<group>"; };
+		88DAA69E280D53D400265F41 /* GamePotLogin_ios.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GamePotLogin_ios.mm; sourceTree = "<group>"; };
+		88DAA719280D55A700265F41 /* NaverThirdPartyLogin.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NaverThirdPartyLogin.framework; sourceTree = "<group>"; };
+		88DAA71A280D55A700265F41 /* GamePotNaver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GamePotNaver.framework; sourceTree = "<group>"; };
+		88DAA71E280D55B900265F41 /* Nelo2SDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Nelo2SDK.framework; sourceTree = "<group>"; };
+		88DAA71F280D55B900265F41 /* CrashReporter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CrashReporter.framework; sourceTree = "<group>"; };
+		88DAA720280D55B900265F41 /* GamePotLogger.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GamePotLogger.framework; sourceTree = "<group>"; };
+		88DAA725280D55CA00265F41 /* GamePotGoogleSignIn.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GamePotGoogleSignIn.framework; sourceTree = "<group>"; };
+		88DAA727280D55CA00265F41 /* GoogleSignIn.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GoogleSignIn.bundle; sourceTree = "<group>"; };
+		88DAA728280D55CA00265F41 /* GoogleSignInDependencies.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleSignInDependencies.framework; sourceTree = "<group>"; };
+		88DAA729280D55CA00265F41 /* GoogleSignIn.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleSignIn.framework; sourceTree = "<group>"; };
+		88DAA72F280D55E000265F41 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		88DAA730280D55E000265F41 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		88DAA731280D55E000265F41 /* GamePotFacebook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GamePotFacebook.framework; sourceTree = "<group>"; };
+		88DAA736280D55F000265F41 /* GamePotChannel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GamePotChannel.framework; sourceTree = "<group>"; };
+		88DAA739280D55FC00265F41 /* GamePotApple.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GamePotApple.framework; sourceTree = "<group>"; };
+		88DAA73C280D560900265F41 /* Protobuf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Protobuf.framework; sourceTree = "<group>"; };
+		88DAA73D280D560900265F41 /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseCore.framework; sourceTree = "<group>"; };
+		88DAA73E280D560900265F41 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		88DAA73F280D560900265F41 /* GamePot.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GamePot.framework; sourceTree = "<group>"; };
+		88DAA740280D560900265F41 /* FirebaseMessaging.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseMessaging.framework; sourceTree = "<group>"; };
+		88DAA742280D560900265F41 /* GamePot.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GamePot.bundle; sourceTree = "<group>"; };
+		88DAA743280D560900265F41 /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleToolboxForMac.framework; sourceTree = "<group>"; };
+		88DAA744280D560900265F41 /* nanopb.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = nanopb.framework; sourceTree = "<group>"; };
+		88DAA745280D560900265F41 /* FirebaseNanoPB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseNanoPB.framework; sourceTree = "<group>"; };
+		88DAA746280D560900265F41 /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AFNetworking.framework; sourceTree = "<group>"; };
+		88DAA747280D560900265F41 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		88DAA748280D560900265F41 /* FirebaseCoreDiagnostics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseCoreDiagnostics.framework; sourceTree = "<group>"; };
 		BF170DB012928DE900B8313A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		BF170DB412928DE900B8313A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		BF1C47EA1293683800B63C5D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -154,21 +222,45 @@
 			buildActionMask = 2147483647;
 			files = (
 				294D0D641D0D56D500F7F5D4 /* CoreText.framework in Frameworks */,
+				88DAA754280D560900265F41 /* FirebaseCoreDiagnostics.framework in Frameworks */,
+				88DAA752280D560900265F41 /* AFNetworking.framework in Frameworks */,
 				ED545A7C1B68A1F400C3958E /* libiconv.dylib in Frameworks */,
+				88DAA723280D55B900265F41 /* GamePotLogger.framework in Frameworks */,
+				88DAA737280D55F000265F41 /* GamePotChannel.framework in Frameworks */,
 				88DAA6822809619B00265F41 /* GameController.framework in Frameworks */,
+				88DAA733280D55E000265F41 /* FBSDKCoreKit.framework in Frameworks */,
 				88DAA684280961A100265F41 /* MediaPlayer.framework in Frameworks */,
+				88DAA74B280D560900265F41 /* FirebaseAnalytics.framework in Frameworks */,
+				88DAA71B280D55A700265F41 /* NaverThirdPartyLogin.framework in Frameworks */,
+				88DAA750280D560900265F41 /* nanopb.framework in Frameworks */,
 				8840F68528040682000B3616 /* WebKit.framework in Frameworks */,
+				88DAA721280D55B900265F41 /* Nelo2SDK.framework in Frameworks */,
+				88DAA73A280D55FC00265F41 /* GamePotApple.framework in Frameworks */,
 				52B47A471A53D09C004E4C60 /* Security.framework in Frameworks */,
 				1AC6FB30180E99EB004C840B /* libcocos2d iOS.a in Frameworks */,
 				D6B0611B1803AB670077942B /* CoreMotion.framework in Frameworks */,
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				88DAA71C280D55A700265F41 /* GamePotNaver.framework in Frameworks */,
 				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				88DAA749280D560900265F41 /* Protobuf.framework in Frameworks */,
 				BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */,
+				88DAA74F280D560900265F41 /* GoogleToolboxForMac.framework in Frameworks */,
 				BF1712471292920000B8313A /* libz.dylib in Frameworks */,
+				88DAA72C280D55CA00265F41 /* GoogleSignInDependencies.framework in Frameworks */,
+				88DAA74A280D560900265F41 /* FirebaseCore.framework in Frameworks */,
 				BF1C47F01293687400B63C5D /* QuartzCore.framework in Frameworks */,
+				88DAA72A280D55CA00265F41 /* GamePotGoogleSignIn.framework in Frameworks */,
 				D44C620C132DFF330009C878 /* OpenAL.framework in Frameworks */,
 				D44C620E132DFF430009C878 /* AVFoundation.framework in Frameworks */,
+				88DAA732280D55E000265F41 /* FBSDKLoginKit.framework in Frameworks */,
+				88DAA72D280D55CA00265F41 /* GoogleSignIn.framework in Frameworks */,
+				88DAA74C280D560900265F41 /* GamePot.framework in Frameworks */,
+				88DAA751280D560900265F41 /* FirebaseNanoPB.framework in Frameworks */,
+				88DAA74D280D560900265F41 /* FirebaseMessaging.framework in Frameworks */,
+				88DAA753280D560900265F41 /* FirebaseInstanceID.framework in Frameworks */,
+				88DAA734280D55E000265F41 /* GamePotFacebook.framework in Frameworks */,
+				88DAA722280D55B900265F41 /* CrashReporter.framework in Frameworks */,
 				D44C6210132DFF4E0009C878 /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -248,6 +340,13 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				88DAA73B280D560900265F41 /* GamePot */,
+				88DAA738280D55FC00265F41 /* GamePotApple */,
+				88DAA735280D55F000265F41 /* GamePotChannel */,
+				88DAA72E280D55E000265F41 /* GamePotFacebook */,
+				88DAA724280D55CA00265F41 /* GamePotGoogleSignIn */,
+				88DAA71D280D55B900265F41 /* GamePotLogger */,
+				88DAA718280D55A700265F41 /* GamePotNaver */,
 				88DAA683280961A100265F41 /* MediaPlayer.framework */,
 				88DAA6812809619B00265F41 /* GameController.framework */,
 				8840F68428040682000B3616 /* WebKit.framework */,
@@ -315,8 +414,182 @@
 				8840F670280403C2000B3616 /* AppDelegate.h */,
 				8840F671280403C2000B3616 /* HelloWorldScene.cpp */,
 				8840F672280403C2000B3616 /* AppDelegate.cpp */,
+				88DAA687280D53D400265F41 /* M2 */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		88DAA687280D53D400265F41 /* M2 */ = {
+			isa = PBXGroup;
+			children = (
+				88DAA688280D53D400265F41 /* Module */,
+			);
+			name = M2;
+			path = ../../Classes/M2;
+			sourceTree = "<group>";
+		};
+		88DAA688280D53D400265F41 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				88DAA689280D53D400265F41 /* NaverGameSDK */,
+				88DAA68E280D53D400265F41 /* GamePot */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		88DAA689280D53D400265F41 /* NaverGameSDK */ = {
+			isa = PBXGroup;
+			children = (
+				88DAA68A280D53D400265F41 /* NaverGameLounge.h */,
+				88DAA68B280D53D400265F41 /* NaverGameLounge.cpp */,
+				88DAA68C280D53D400265F41 /* NaverGameSDK.h */,
+			);
+			path = NaverGameSDK;
+			sourceTree = "<group>";
+		};
+		88DAA68E280D53D400265F41 /* GamePot */ = {
+			isa = PBXGroup;
+			children = (
+				88DAA68F280D53D400265F41 /* GamePotPurchase */,
+				88DAA693280D53D400265F41 /* GamePotPush */,
+				88DAA697280D53D400265F41 /* GamePotServiceAgreement */,
+				88DAA69B280D53D400265F41 /* GamePotLogin */,
+			);
+			path = GamePot;
+			sourceTree = "<group>";
+		};
+		88DAA68F280D53D400265F41 /* GamePotPurchase */ = {
+			isa = PBXGroup;
+			children = (
+				88DAA690280D53D400265F41 /* GamePotPurchase_ios.mm */,
+				88DAA691280D53D400265F41 /* GamePotPurchase.h */,
+			);
+			path = GamePotPurchase;
+			sourceTree = "<group>";
+		};
+		88DAA693280D53D400265F41 /* GamePotPush */ = {
+			isa = PBXGroup;
+			children = (
+				88DAA695280D53D400265F41 /* GamePotPush.h */,
+				88DAA696280D53D400265F41 /* GamePotPush_ios.mm */,
+			);
+			path = GamePotPush;
+			sourceTree = "<group>";
+		};
+		88DAA697280D53D400265F41 /* GamePotServiceAgreement */ = {
+			isa = PBXGroup;
+			children = (
+				88DAA698280D53D400265F41 /* GamePotServiceAgreement_ios.mm */,
+				88DAA69A280D53D400265F41 /* GamePotServiceAgreement.h */,
+			);
+			path = GamePotServiceAgreement;
+			sourceTree = "<group>";
+		};
+		88DAA69B280D53D400265F41 /* GamePotLogin */ = {
+			isa = PBXGroup;
+			children = (
+				88DAA69D280D53D400265F41 /* GamePotLogin.h */,
+				88DAA69E280D53D400265F41 /* GamePotLogin_ios.mm */,
+			);
+			path = GamePotLogin;
+			sourceTree = "<group>";
+		};
+		88DAA718280D55A700265F41 /* GamePotNaver */ = {
+			isa = PBXGroup;
+			children = (
+				88DAA719280D55A700265F41 /* NaverThirdPartyLogin.framework */,
+				88DAA71A280D55A700265F41 /* GamePotNaver.framework */,
+			);
+			name = GamePotNaver;
+			path = ../libs/gamepot/ios/GamePotNaver;
+			sourceTree = "<group>";
+		};
+		88DAA71D280D55B900265F41 /* GamePotLogger */ = {
+			isa = PBXGroup;
+			children = (
+				88DAA71E280D55B900265F41 /* Nelo2SDK.framework */,
+				88DAA71F280D55B900265F41 /* CrashReporter.framework */,
+				88DAA720280D55B900265F41 /* GamePotLogger.framework */,
+			);
+			name = GamePotLogger;
+			path = ../libs/gamepot/ios/GamePotLogger;
+			sourceTree = "<group>";
+		};
+		88DAA724280D55CA00265F41 /* GamePotGoogleSignIn */ = {
+			isa = PBXGroup;
+			children = (
+				88DAA725280D55CA00265F41 /* GamePotGoogleSignIn.framework */,
+				88DAA726280D55CA00265F41 /* Bundle */,
+				88DAA728280D55CA00265F41 /* GoogleSignInDependencies.framework */,
+				88DAA729280D55CA00265F41 /* GoogleSignIn.framework */,
+			);
+			name = GamePotGoogleSignIn;
+			path = ../libs/gamepot/ios/GamePotGoogleSignIn;
+			sourceTree = "<group>";
+		};
+		88DAA726280D55CA00265F41 /* Bundle */ = {
+			isa = PBXGroup;
+			children = (
+				88DAA727280D55CA00265F41 /* GoogleSignIn.bundle */,
+			);
+			path = Bundle;
+			sourceTree = "<group>";
+		};
+		88DAA72E280D55E000265F41 /* GamePotFacebook */ = {
+			isa = PBXGroup;
+			children = (
+				88DAA72F280D55E000265F41 /* FBSDKLoginKit.framework */,
+				88DAA730280D55E000265F41 /* FBSDKCoreKit.framework */,
+				88DAA731280D55E000265F41 /* GamePotFacebook.framework */,
+			);
+			name = GamePotFacebook;
+			path = ../libs/gamepot/ios/GamePotFacebook;
+			sourceTree = "<group>";
+		};
+		88DAA735280D55F000265F41 /* GamePotChannel */ = {
+			isa = PBXGroup;
+			children = (
+				88DAA736280D55F000265F41 /* GamePotChannel.framework */,
+			);
+			name = GamePotChannel;
+			path = ../libs/gamepot/ios/GamePotChannel;
+			sourceTree = "<group>";
+		};
+		88DAA738280D55FC00265F41 /* GamePotApple */ = {
+			isa = PBXGroup;
+			children = (
+				88DAA739280D55FC00265F41 /* GamePotApple.framework */,
+			);
+			name = GamePotApple;
+			path = ../libs/gamepot/ios/GamePotApple;
+			sourceTree = "<group>";
+		};
+		88DAA73B280D560900265F41 /* GamePot */ = {
+			isa = PBXGroup;
+			children = (
+				88DAA73C280D560900265F41 /* Protobuf.framework */,
+				88DAA73D280D560900265F41 /* FirebaseCore.framework */,
+				88DAA73E280D560900265F41 /* FirebaseAnalytics.framework */,
+				88DAA73F280D560900265F41 /* GamePot.framework */,
+				88DAA740280D560900265F41 /* FirebaseMessaging.framework */,
+				88DAA741280D560900265F41 /* Bundle */,
+				88DAA743280D560900265F41 /* GoogleToolboxForMac.framework */,
+				88DAA744280D560900265F41 /* nanopb.framework */,
+				88DAA745280D560900265F41 /* FirebaseNanoPB.framework */,
+				88DAA746280D560900265F41 /* AFNetworking.framework */,
+				88DAA747280D560900265F41 /* FirebaseInstanceID.framework */,
+				88DAA748280D560900265F41 /* FirebaseCoreDiagnostics.framework */,
+			);
+			name = GamePot;
+			path = ../libs/gamepot/ios/GamePot;
+			sourceTree = "<group>";
+		};
+		88DAA741280D560900265F41 /* Bundle */ = {
+			isa = PBXGroup;
+			children = (
+				88DAA742280D560900265F41 /* GamePot.bundle */,
+			);
+			path = Bundle;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -428,9 +701,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				46880B8119C43A67006E1F66 /* HelloWorld.png in Resources */,
+				88DAA74E280D560900265F41 /* GamePot.bundle in Resources */,
 				1A88B2641FC3D9C9005C14AE /* Images.xcassets in Resources */,
 				46880B7D19C43A67006E1F66 /* CloseSelected.png in Resources */,
 				521A8EA919F11F5000D177D7 /* fonts in Resources */,
+				88DAA72B280D55CA00265F41 /* GoogleSignIn.bundle in Resources */,
 				3EACC98F19EE6D4300EB3C5E /* res in Resources */,
 				1AF87B891F6F781D007BE51C /* LaunchScreenBackground.png in Resources */,
 				46880B7B19C43A67006E1F66 /* CloseNormal.png in Resources */,
@@ -458,10 +733,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88DAA6A2280D53D400265F41 /* GamePotPurchase_ios.mm in Sources */,
 				1AF87B781F6F77F7007BE51C /* AppController.mm in Sources */,
+				88DAA6A9280D53D400265F41 /* GamePotLogin_ios.mm in Sources */,
+				88DAA6A6280D53D400265F41 /* GamePotServiceAgreement_ios.mm in Sources */,
 				1AF87B8B1F6F782A007BE51C /* RootViewController.mm in Sources */,
+				88DAA6A0280D53D400265F41 /* NaverGameLounge.cpp in Sources */,
 				8840F67C280403C2000B3616 /* AppDelegate.cpp in Sources */,
 				8840F67B280403C2000B3616 /* HelloWorldScene.cpp in Sources */,
+				88DAA6A5280D53D400265F41 /* GamePotPush_ios.mm in Sources */,
 				1AF87B8A1F6F7822007BE51C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -503,7 +783,16 @@
 				DEVELOPMENT_TEAM = 9EN6WKMF8R;
 				ENABLE_BITCODE = NO;
 				EXCLUDED_ARCHS = armv7;
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GamePot",
+					"$(PROJECT_DIR)/GamePot/GamePotApple",
+					"$(PROJECT_DIR)/GamePotChannel",
+					"$(PROJECT_DIR)/GamePotFacebook",
+					"$(PROJECT_DIR)/GamePotGoogleSignIn",
+					"$(PROJECT_DIR)/GamePotLogger",
+					"$(PROJECT_DIR)/GamePotNaver",
+				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -555,7 +844,16 @@
 				DEVELOPMENT_TEAM = 9EN6WKMF8R;
 				ENABLE_BITCODE = NO;
 				EXCLUDED_ARCHS = armv7;
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GamePot",
+					"$(PROJECT_DIR)/GamePot/GamePotApple",
+					"$(PROJECT_DIR)/GamePotChannel",
+					"$(PROJECT_DIR)/GamePotFacebook",
+					"$(PROJECT_DIR)/GamePotGoogleSignIn",
+					"$(PROJECT_DIR)/GamePotLogger",
+					"$(PROJECT_DIR)/GamePotNaver",
+				);
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = ios/Prefix.pch;
